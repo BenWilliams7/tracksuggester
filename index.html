@@ -10,45 +10,69 @@
   <body>
     <div class="container">
       <h1>Epicodus Track Selector!</h1>
-      <h4>Would you rather work on how something looks or how it works:</h4>
-        <select class="form-control" id="aesthetics">
-          <option>Looks</option>
-          <option>Works</option>
-        </select>
-        <form id=track>
-          <button type="submit" class="btn">Track me!</button>
-        </form>
-      </div>
-        <div>
-        <ul>
-          <li id="ruby">You should try:
-            <p>
-              Ruby is a programming language focused on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. The Ruby programming language is most commonly used with the Ruby on Rails framework.
+      <h4>Would you rather work on how something looks or on how it works?</h4>
+      <select class="form-control" id="aesthetics">
+        <option>Works</option>
+        <option>Looks</option>
+      </select>
+      <h4>Would you rather work mostly on websites or on applications such as mobile apps?</h4>
+      <select class="form-control" id="type">
+        <option>Websites</option>
+        <option>Applications</option>
+      </select>
+      <h4>Would you rather work with an up and coming company or with an established company?</h4>
+      <select class="form-control" id="company">
+        <option>Up and coming</option>
+        <option>Established</option>
+      </select>
+      <h4>Would you rather root for the underdog or play it safe?</h4>
+      <select class="form-control" id="root">
+        <option>Underdog</option>
+        <option>Safe</option>
+      </select>
+      <h4>Are you interested in computers and could you foresee yourself working in front of a screen?</h4>
+      <select class="form-control" id="media">
+        <option>Yes, working at a computer sounds fine</option>
+        <option>Couldn't bear it, get me outside</option>
+      </select>
+      <form id=track>
+        <button type="submit" class="btn">Track me!</button>
+      </form>
+    </div>
+    <div>
+      <ul>
+        <li id="ruby">You should try Ruby!
+          <p>
+            Ruby is a programming language focused on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. The Ruby programming language is most commonly used with the Ruby on Rails framework.
 
-              Ruby and Rails are typically used by younger companies and startups, especially for building interactive web applications. Companies using Ruby and Rails who have hired Epicodus graduates include New Relic, LivingSocial, and SpendWell.
-            </p>
-          </li>
-          <li id="java">You should try Java
-            <p>
-              Java is arguably the most popular programming language today. It's used for everything from web applications to backend services to mobile applications to embedded systems. Students who learn Java programming will be able to create dynamic web applications, and be able continue into our Android track.
+            Ruby and Rails are typically used by younger companies and startups, especially for building interactive web applications. Companies using Ruby and Rails who have hired Epicodus graduates include New Relic, LivingSocial, and SpendWell.
+          </p>
+        </li>
+        <li id="java">You should try Java!
+          <p>
+            Java is arguably the most popular programming language today. It's used for everything from web applications to backend services to mobile applications to embedded systems. Students who learn Java programming will be able to create dynamic web applications, and be able continue into our Android track.
 
-              Companies using Java who have hired Epicodus graduates include Nike and Thetus.
-            </p>
-          </li>
-          <li id="design">You should try web design!
-            <p>
-              CSS is the language for describing the presentation of Web pages, including colors, layout, fonts, and other stylistic choices. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, and printers. HTML — used for building the structure of the page — and CSS — used for the visual layout — are the two basic languages involved in the building of web pages and web applications.
+            Companies using Java who have hired Epicodus graduates include Nike and Thetus.
+          </p>
+        </li>
+        <li id="design">You should try web design!
+          <p>
+            CSS is the language for describing the presentation of Web pages, including colors, layout, fonts, and other stylistic choices. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, and printers. HTML — used for building the structure of the page — and CSS — used for the visual layout — are the two basic languages involved in the building of web pages and web applications.
 
-              Web design is a process of conceptualizing, planning, and building a collection of electronic files that determine the layout, colors, text styles, structure, graphics, images, and use of interactive features that deliver pages to your site visitors. Web Design is a crucial component in web development, and students who learn design will be able to engineer positive and interactive user experiences through innovative interfaces.
-            </p>
-          </li>
-          <li id="csharp">You should try C#
-            <p>
-              The C# ("C sharp") programming language is most commonly used with the .NET framework. Students who are well-versed in C# programming can use it to create client applications, database applications, distributed components, and much more.
+            Web design is a process of conceptualizing, planning, and building a collection of electronic files that determine the layout, colors, text styles, structure, graphics, images, and use of interactive features that deliver pages to your site visitors. Web Design is a crucial component in web development, and students who learn design will be able to engineer positive and interactive user experiences through innovative interfaces.
+          </p>
+        </li>
+        <li id="csharp">You should try C#!
+          <p>
+            The C# ("C sharp") programming language is most commonly used with the .NET framework. Students who are well-versed in C# programming can use it to create client applications, database applications, distributed components, and much more.
 
-              Students who learn C# programming and combine it with their knowledge of the .NET framework can target larger enterprises, government agencies, and companies serving enterprise and government clients for employment.
+            Students who learn C# programming and combine it with their knowledge of the .NET framework can target larger enterprises, government agencies, and companies serving enterprise and government clients for employment.
 
-              Companies using C# and .NET who have hired Epicodus graduates include Windsor and Incomm.
+            Companies using C# and .NET who have hired Epicodus graduates include Windsor and Incomm.
+          </p>
+        <li id="out">Maybe Epicodus isn't your best bet
+          <p>
+              Whatever you do in life, programming knowledge will be helpful. But if you don't like the idea of working in front of a computer then maybe you should set out into the great beyond and slake some wanderlust before settling into Epicodus.
           </p>
         </li>
       </ul>
