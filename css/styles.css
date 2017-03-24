@@ -34,10 +34,11 @@ h2 {
 
 }
 
-l1 {
-    font-family: 'Helvetica Neue', sans-serif;
+img {
+  display: block;
+  margin: auto;
+  width: 33%;
 }
-
 
 
 #ruby {
