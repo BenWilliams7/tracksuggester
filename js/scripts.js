@@ -21,14 +21,14 @@ $(document).ready(function(){
     $("#csharp").hide();
     $("#out").hide();
   }
-  else if ((type === "Websites") && (company === "Up and coming")){
+  else if ((type === "Websites") && ((company === "Up and coming") || (root === "Underdog"))){
     $("#ruby").show();
     $("#design").hide();
     $("#java").hide();
     $("#csharp").hide();
     $("#out").hide();
   }
-  else if ((company === "Up and coming") || (root === "safe")) {
+  else if ((company === "Up and coming") || (root === "Safe")) {
     $("#java").show();
     $("#design").hide();
     $("#ruby").hide();
