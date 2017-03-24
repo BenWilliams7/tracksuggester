@@ -8,35 +8,35 @@ $(document).ready(function(){
   var media = $("#media").val();
 
   if (media === "Couldn't bear it, get me outside"){
-    $("#out").show();
+    $("#out").fadeIn();
     $("#ruby").hide();
     $("#design").hide();
     $("#csharp").hide();
     $("#java").hide();
   }
   else if (aesthetics === "Looks"){
-    $("#design").show();
+    $("#design").fadeIn();
     $("#ruby").hide();
     $("#java").hide();
     $("#csharp").hide();
     $("#out").hide();
   }
   else if ((type === "Websites") && ((company === "Up and coming") || (root === "Underdog"))){
-    $("#ruby").show();
+    $("#ruby").fadeIn();
     $("#design").hide();
     $("#java").hide();
     $("#csharp").hide();
     $("#out").hide();
   }
   else if ((company === "Up and coming") || (root === "Safe")) {
-    $("#java").show();
+    $("#java").fadeIn();
     $("#design").hide();
     $("#ruby").hide();
     $("#csharp").hide();
     $("#out").hide();
   }
   else {
-    $("#csharp").show();
+    $("#csharp").fadeIn();
     $("#design").hide();
     $("#ruby").hide();
     $("#java").hide();
