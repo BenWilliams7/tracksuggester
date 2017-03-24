@@ -13,6 +13,16 @@
         <h1>Epicodus Track Selector!</h1>
         <p>Select answers to the following questions to get a suggestion of what programming language you should try.</p>
       </div>
+      <div class="hello">
+        <form id="hello">
+          <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <span class="addresult"></span>
+          <button type="submit" class="btn">Add name!</button>
+        </form>
+      </div>
       <h4>Would you rather work on how something looks or on how it works?</h4>
       <select class="form-control" id="aesthetics">
         <option>Works</option>
@@ -41,12 +51,11 @@
       <form id=track>
         <button type="submit" class="btn">Track Me!</button>
       </form>
-    </div>
-    <div class="container">
+
       <div id="ruby">
         <div class="panel panel-info">
           <div class="panel-heading">
-            <h2 class="panel-title">You should try Ruby!</h2>
+            <h2 class="panel-title">Hello <span id="name"></span>, You should try Ruby!</h2>
           </div>
           <div class="panel-body">
             <p>
@@ -61,7 +70,7 @@
       <div id="java">
         <div class="panel panel-info">
           <div class="panel-heading">
-            <h2 class="panel-title">You should try Java!</h2>
+            <h2 class="panel-title">Hello <span id="name"></span>, You should try Java!</h2>
           </div>
           <div class="panel-body">
             <p>
@@ -76,7 +85,7 @@
       <div id="design">
         <div class="panel panel-info">
           <div class="panel-heading">
-            <h2 class="panel-title">You should try web design!</h2>
+            <h2 class="panel-title">Hello <span id="name"></span>, You should try web design!</h2>
           </div>
           <div class="panel-body">
             <p>
@@ -91,7 +100,7 @@
       <div id="csharp">
         <div class="panel panel-info">
           <div class="panel-heading">
-            <h2 class="panel-title">You should try C#!</h2>
+            <h2 class="panel-title">Hello <span id="name"></span>, You should try C#!</h2>
           </div>
           <div class="panel-body">
             <p>
@@ -108,7 +117,7 @@
       <div id="out">
         <div class="panel panel-info">
           <div class="panel-heading">
-            <h2 class="panel-title">Maybe Epicodus isn't your best bet</h2>
+            <h2 class="panel-title">Hello <span id="name"></span>, Maybe Epicodus isn't your best bet</h2>
           </div>
           <div class="panel-body">
             <p>

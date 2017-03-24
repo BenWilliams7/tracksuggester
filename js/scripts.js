@@ -44,4 +44,12 @@ $(document).ready(function(){
   }
   event.preventDefault();
   });
+
+  $("form#hello").submit(function(event) {
+    var name = $("input#name").val();
+
+    $("span#name").text(name);
+    event.preventDefault();
+  });
+
 });
