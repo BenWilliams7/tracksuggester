@@ -9,119 +9,46 @@
   </head>
   <body>
     <div class="container">
-      <!-- Question 1 -->
-      <h4>Are you more concerned with how something looks or how it works:</h2>
-      <div class="radio">
-        <label>
-          <input type="radio" name="aesthetics" value="look" checked>
-          Looks
-        </label>
+      <h1>Epicodus Track Selector!</h1>
+      <h4>Would you rather work on how something looks or how it works:</h4>
+        <select class="form-control" id="aesthetics">
+          <option>Looks</option>
+          <option>Works</option>
+        </select>
+        <form id=track>
+          <button type="submit" class="btn">Track me!</button>
+        </form>
       </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="aesthetics" value="work">
-          Works
-        </label>
-      </div>
-      <!-- Question 2 -->
-      <h4>Are you more interested in working with the Internet or with applications such as Android apps:</h2>
-      <div class="radio">
-        <label>
-          <input type="radio" name="format" value="internet" checked>
-          Internet
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="format" value="apps">
-          Applications
-        </label>
-      </div>
-      <!-- Question 3 -->
-      <h4>Are you more intersted in working with up-and-coming companies or with larger established ones:</h2>
-      <div class="radio">
-        <label>
-          <input type="radio" name="companies" value="upandcoming" checked>
-          Up and coming ones
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="companies" value="established">
-          Established
-        </label>
-      </div>
-      <!-- Question 4 -->
-      <h4>Do you root for the underdog or play it safe?</h2>
-      <div class="radio">
-        <label>
-          <input type="radio" name="root" value="underdog" checked>
-          Underdog
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="root" value="safe">
-          Safe
-        </label>
-      </div>
-      <!-- Question 5 -->
-      <h4>Are you more interested in phones or in laptops?</h2>
-      <div class="radio">
-        <label>
-          <input type="radio" name="media" value="phones" checked>
-          Phones
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="media" value="laptop">
-          Laptops
-        </label>
-      </div>
-      <!-- <select class="form-control" id="month">
-        <option>January</option>
-        <option>February</option>
-        <option>March</option>
-        <option>April</option>
-        <option>May</option>
-        <option>June</option>
-        <option>July</option>
-        <option>August</option>
-        <option>September</option>
-        <option>October</option>
-        <option>November</option>
-        <option>December</option>
-      </select> -->
-     <form id="dob">
+        <div>
+        <ul>
+          <li id="ruby">You should try:
+            <p>
+              Ruby is a programming language focused on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. The Ruby programming language is most commonly used with the Ruby on Rails framework.
 
-       <button type="submit" class="btn">Give me a sign!</button>
-     </form>
-   </div>
-   <div>
-      <ul>
-        <li id="cancer">You should date: Cancer
-          <p>
-            Probably the best sign, seriously. Rockstar.
-            <br>
-            Strengths: Tenacious, highly imaginative, loyal, emotional, sympathetic, persuasive
-            Weaknesses: Moody, pessimistic, suspicious, manipulative, insecure
-            Cancer likes: Art, home-based hobbies, relaxing near or in water, helping loved ones, a good meal with friends
-            Cancer dislikes: Strangers, any criticism of Mom, revealing of personal life
+              Ruby and Rails are typically used by younger companies and startups, especially for building interactive web applications. Companies using Ruby and Rails who have hired Epicodus graduates include New Relic, LivingSocial, and SpendWell.
+            </p>
+          </li>
+          <li id="java">You should try Java
+            <p>
+              Java is arguably the most popular programming language today. It's used for everything from web applications to backend services to mobile applications to embedded systems. Students who learn Java programming will be able to create dynamic web applications, and be able continue into our Android track.
 
-            Deeply intuitive and sentimental, Cancer can be one of the most challenging zodiac signs to get to know. They are very emotional and sensitive, and care deeply about matters of the family and their home. Cancer is sympathetic and attached to people they keep close. Those born with their Sun in Cancer are very loyal and able to empathize with other people's pain and suffering.
-          </p>
-        </li>
-        <li id="virgo">You should date: Virgo
-          <p>
-            Great sign! Def second.
-            <br>
-            Strengths: Loyal, analytical, kind, hardworking, practical
-            Weaknesses: Shyness, worry, overly critical of self and others, all work and no play
-            Virgo likes: Animals, healthy food, books, nature, cleanliness
-            Virgo dislikes: Rudeness, asking for help, taking center stage
+              Companies using Java who have hired Epicodus graduates include Nike and Thetus.
+            </p>
+          </li>
+          <li id="design">You should try web design!
+            <p>
+              CSS is the language for describing the presentation of Web pages, including colors, layout, fonts, and other stylistic choices. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, and printers. HTML — used for building the structure of the page — and CSS — used for the visual layout — are the two basic languages involved in the building of web pages and web applications.
 
-            Virgos are always paying attention to the smallest details and their deep sense of humanity makes them one of the most careful signs of the zodiac. Their methodical approach to life ensures that nothing is left to chance, and although they are often tender, their heart might be closed for the outer world. This is a sign often misunderstood, not because they lack the ability to express, but because they won’t accept their feelings as valid, true, or even relevant when opposed to reason. The symbolism behind the name speaks well of their nature, born with a feeling they are experiencing everything for the first time.
+              Web design is a process of conceptualizing, planning, and building a collection of electronic files that determine the layout, colors, text styles, structure, graphics, images, and use of interactive features that deliver pages to your site visitors. Web Design is a crucial component in web development, and students who learn design will be able to engineer positive and interactive user experiences through innovative interfaces.
+            </p>
+          </li>
+          <li id="csharp">You should try C#
+            <p>
+              The C# ("C sharp") programming language is most commonly used with the .NET framework. Students who are well-versed in C# programming can use it to create client applications, database applications, distributed components, and much more.
+
+              Students who learn C# programming and combine it with their knowledge of the .NET framework can target larger enterprises, government agencies, and companies serving enterprise and government clients for employment.
+
+              Companies using C# and .NET who have hired Epicodus graduates include Windsor and Incomm.
           </p>
         </li>
       </ul>

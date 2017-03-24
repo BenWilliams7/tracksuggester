@@ -1,9 +1,23 @@
 
 
-#virgo {
+#ruby {
   display: none;
 }
 
-#cancer {
+#java {
   display: none;
+}
+
+#design {
+  display: none;
+}
+
+#csharp {
+  display: none;
+}
+
+
+
+h1 {
+  text-align: center;
 }

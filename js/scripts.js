@@ -1,18 +1,14 @@
 $(document).ready(function(){
-  $("form#dob").submit(function(event) {
+  $("form#track").submit(function(event) {
 
-  var month = $("#month").val();
-  var dob = parseInt($("input#day").val());
+  var aesthetics = $("#aesthetics").val();
 
-  // if (month === "January" && day < 15){
-  //   $("#virgo").show();
-  // }
 
-  if (month === "January"){
-    $("#virgo").show();
+  if (aesthetics === "Looks"){
+    $("#ruby").show();
   }
   else {
-    $("#cancer").show();
+    $("#java").show();
   }
   event.preventDefault();
   });
